@@ -1,0 +1,30 @@
+.header {
+    color: rgb(80, 145, 136);
+}
+.header li {
+    color: brown;
+}
+.main .main-content {
+    color: chocolate;
+}
+.green {
+    color: green;
+}
+.grey {
+    color: grey;
+}
+.black {
+    color: black;
+}
+.yellow {
+    color: greenyellow;
+}
+.up {
+    color: green;
+}
+.footer > p{
+    color: gold;
+}
+.footer .ukraine{
+    color: blue;
+}
