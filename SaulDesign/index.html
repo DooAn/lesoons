@@ -32,8 +32,8 @@
             </div>
         </header>
         <main class="page">
-            <button class="button">Text</button>
-            <button class="button button_dark ">Text</button>
+            <!-- <button class="button">Text</button>
+            <button class="button button_dark ">Text</button> -->
             <section class="page__main main">
                 <div class="main__container">
                     <div class="main__content">
@@ -65,6 +65,68 @@
                     <div class="about__image">
                         <img src="img/main_2.svg" alt="main_2">
                     </div>
+                </div>
+            </section>
+            <section class="page__works works">
+                <div class="works__container">
+                    <h2 class="works__title title">My recent <span>works</span>
+                    </h2>
+                    <div class="works__items items-works">
+                        <nav class="items-work__navigation">
+                            <button class="items-works__type button button_dark active">ALL</button>
+                            <button class="items-works__type button button_dark">UI</button>
+                            <button class="items-works__type button button_dark">UX</button>
+                            <button class="items-works__type button button_dark">Web Desing</button>
+                        </nav>
+                        <div class="items-works__body">
+                            <a href="#" class="items-works__item">
+                                <div class="items-works__image">
+                                    <img src="/img/1.png" alt="1">
+                                </div>
+                            </a>
+                            <a href="#" class="items-works__item">
+                                <div class="items-works__image">
+                                    <img src="/img/2.png" alt="2">
+                                </div>
+                            </a>
+                            <a href="#" class="items-works__item">
+                                <div class="items-works__image">
+                                    <img src="/img/3.png" alt="3">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__contacts contacts">
+                <div class="contacts__container">
+                    <div class="contacts__content">
+                        <h2 class="contacts__title title">
+
+                        </h2>
+                        <div class="contacts__image">
+                            <img src="/img/mind.svg" alt="mind">
+                        </div>
+                    </div>
+                    <form action="#" class="contacts__form form">
+                        <div class="form__item">
+                            <label for="i-1" class="form__label">Your name</label>
+                            <input required id="i-1" type="text" class="form__input" placeholder="Name" name="name">
+                        </div>
+                        <div class="form__item">
+                            <label for="i-2" class="form__label">Your name</label>
+                            <input required id="i-2" type="email" class="form__input" placeholder="Email" name="Email">
+                        </div>
+                        <div class="form__item">
+                            <label for="i-3" class="form__label">Your message</label>
+                            <textarea id="i-3" class="form__input" placeholder="Message" name="message"></textarea>
+                        </div>
+                        <div class="form__item">
+                            <button type="submit" class="form__button button">
+                                <span>Send Message</span>
+                            </button>
+                        </div>
+                    </form>
                 </div>
             </section>
         </main>
