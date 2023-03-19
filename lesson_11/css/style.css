@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.wrapper {
+    /* overflow: hidden; */
+    position: relative;
+    min-height: 100%;
+    padding: 50px;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 50px;
+    background-color: rgb(50, 148, 205);
+    opacity: 0.5;
+    z-index: 100;
+}
+
+.header__container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header__menu {}
+
+.menu {
+    font-size: 0;
+}
+
+.menu__item {
+    position: relative;
+    display: inline-block;
+}
+
+.menu__item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.menu__item:hover .sub-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+
+.menu__link {
+    font-size: 25px;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 0px;
+}
+
+.sub-menu {
+    background-color: #77608d;
+    padding: 20px;
+    position: absolute;
+    min-width: 180px;
+    top: 130%;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease 0s;
+}
+
+.sub-menu__item {}
+
+.sub-menu__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.sub-menu__link {
+    font-size: 16px;
+    color: #fff;
+}
+
+.section {
+    background-color: rgb(3, 2, 2);
+    padding: 250px;
+    margin-top: 150px;
+    height: 2800px;
+    position: relative;
+}
+.items {
+    padding-bottom: 200px;    
+}
+.items__item {
+    height: 100px;
+    padding: 15px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    border: 5px solid;
+}
+
+.items__item--bg-brown {
+    background-color: #742612;
+}
+.items__item--bg-purple{
+    background-color: rgb(14, 218, 65);
+    position: relative;
+    top: 40px;
+    left: 50%;
+}
+.items__item--bg-green{
+    background-color: rgb(161, 9, 128);
+}
+.items__item--bg-black {
+    background-color: black;
+}
+.items__item--bg-red {
+    background-color: red;
+        position: absolute;
+        top: 840px;
+        left: 50%;
+}
+.items__item--bg-yellow {
+    background-color: yellow;
+}
+.items__item--bg-grey {
+    position: relative;
+    background-color: grey;
+    z-index: 3;
+}
+.items__item--bg-orange {
+   
+    background-color: orange;
+    z-index: 2;
+        position: relative;
+        top: -40px;
+        left: 50%;
+}
+.items__item--bg-blue{
+    background-color: blue;
+}
+.items__scroll {
+    position: sticky;
+    top: 0px;
+    padding: 135px;
+}
+.items__item--bg-velvet {
+    background-color: rgb(164, 11, 235);
+
+}
+.items__item--bg-white {
+    background-color: #fff;
+}
+.items__item--bg-indigo {
+        background-color: indigo;
+}
